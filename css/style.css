@@ -110,6 +110,10 @@ main textarea.encrypterOutput{
     padding: 5px;
 }
 
+main .encrypterOutput-container img{
+    display: none;
+}
+
 main .copy-btn{
     background-color: transparent;
     color: var(--blue);
@@ -144,4 +148,62 @@ main .copy-btn{
     }
 
 
+}
+
+@media(min-width:1440px){
+
+    header{
+        height: 150px;
+    }
+
+    header img.logo{
+        margin-top: 40px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 5%;
+        grid-row-gap: 0px;
+        }
+        
+    section.inputSection { 
+        grid-area: 1 / 2 / 6 / 5; 
+    }
+
+    section.outputSection { 
+        grid-area: 1 / 5 / 6 / 6;
+    }
+
+    main textarea.encrypterInput{
+        height: 70vh;
+    }
+
+    main .encrypterOutput-container{
+        display: flex;
+        flex-direction: column;
+        height: 94vh;
+        justify-content: center;
+        /* justify-content: space-between; */
+        position: relative;
+        top: -150px;
+        width: 400px;
+    }
+
+    main .encrypterOutput-container img{
+        display: block;
+    }
+
+    main textarea.encrypterOutput{
+        padding: 16px;
+        height: 100%;
+    }
+
+    main .copy-btn{
+        height: 76px;
+    }
+
+
+        
 }
