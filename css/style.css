@@ -121,3 +121,27 @@ main .copy-btn{
     font-weight: 400;
     margin-top: 24px;
 }
+
+@media(min-width:768px){
+
+    header{
+        height: 240px;
+    }
+
+    header img.logo{
+        margin-top: 72px;
+    }
+
+    main .btn-container{
+        display: flex;
+        gap: 4%;
+        margin-bottom: 64px;
+    }
+
+
+    main .decrypt-btn{
+        margin-top: 16px;
+    }
+
+
+}
