@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Encriptador</title>
 </head>
 <body>
@@ -15,7 +16,22 @@
     <main>
         <section class="inputSection">
 
+            <div class="encrypterInput-container">
+                <textarea class="encrypterInput" name="encrypterInput" id="" cols="30" rows="10">Ingrese el texto aquí</textarea>
+                
+                <small><i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos</small>
+            </div>
+
+            <div class="btn-container">
+
+                <button class="encrypt-btn">Encriptar</button>
+
+                <button class="decrypt-btn">Desencriptar</button>
+
+            </div>
+
         </section>
+
         <section class="outputSection">
 
         </section>
