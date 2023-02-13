@@ -180,10 +180,14 @@ main .copy-btn{
         height: 70vh;
     }
 
+    main textarea.encrypterOutput{
+        height: 82vh;
+    }
+
     main .encrypterOutput-container{
         display: flex;
         flex-direction: column;
-        height: 94vh;
+        height: 108%;
         justify-content: center;
         /* justify-content: space-between; */
         position: relative;
@@ -199,11 +203,5 @@ main .copy-btn{
         padding: 16px;
         height: 100%;
     }
-
-    main .copy-btn{
-        height: 76px;
-    }
-
-
         
 }
