@@ -1,4 +1,4 @@
-const decrypt = function(text){
+export const decrypt = function(text){
 
     let result= text
     .replaceAll("enter", "e")
