@@ -73,7 +73,16 @@ window.addEventListener("load", () => {
     /* Copy to clipboard function */
 
     const copyToClipboard = function(text) {
-        navigator.clipboard.writeText(text);     
+        navigator.clipboard.writeText(text);
+
+        Swal.fire({
+                toast: true,
+                icon: 'success',
+                title: 'Texto copiado',
+                showConfirmButton: false,
+                timer: 1000,
+                timerProgressBar: true,
+            })     
     }
 
     /* Validate function */
